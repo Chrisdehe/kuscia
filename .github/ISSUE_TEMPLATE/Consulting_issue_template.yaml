@@ -26,8 +26,8 @@ body:
       label: Deployment
       description: Existing [documents](https://www.secretflow.org.cn/zh-CN/docs/kuscia/main/) and [issues](https://github.com/secretflow/kuscia/issues)
       options:
-        - Yes
-        - No
+        - 'Yes'
+        - 'No'
     validations:
       required: true
   - type: input
