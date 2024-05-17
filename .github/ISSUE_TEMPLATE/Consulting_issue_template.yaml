@@ -9,7 +9,7 @@ body:
   - type: dropdown
     id: issue-type
     attributes:
-      label: Issue Type
+      label: What type of issue would you like to report?
       description: What type of issue would you like to report?
       multiple: false
       options:
