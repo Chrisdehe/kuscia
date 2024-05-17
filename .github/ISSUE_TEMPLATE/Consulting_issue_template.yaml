@@ -21,7 +21,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: searched for existing issues
+    id: searched-for-existing-issues
     attributes:
       label: Deployment
       description: Existing [documents](https://www.secretflow.org.cn/zh-CN/docs/kuscia/main/) and [issues](https://github.com/secretflow/kuscia/issues)
@@ -47,7 +47,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Question Details
+    id: Question-Details
     attributes:
       label: Question Details
       description: Please provide a detailed description of the problem you have encountered, including the performance of the problem, the difference between expected and actual behavior, and the solutions you have tried. This will help us understand and solve your problem faster.
