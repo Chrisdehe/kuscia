@@ -19,7 +19,7 @@ body:
         - Others
     validations:
       required: true
-    - type: input
+  - type: input
     id: OS
     attributes:
       label: OS Platform and Distribution
@@ -27,7 +27,7 @@ body:
       placeholder: e.g., Linux Ubuntu 18.04
     validations:
       required: true
-    - type: input
+  - type: input
     id: kuscia-version
     attributes:
       label: Kuscia Version
@@ -35,7 +35,7 @@ body:
       placeholder: e.g., kuscia 0.7.0b0
     validations:
       required: true
-    - type: dropdown
+  - type: dropdown
     id: deployment
     attributes:
       label: Deployment
@@ -45,7 +45,7 @@ body:
         - k8s
     validations:
       required: true
-    - type: input
+  - type: input
     id: deployment-version
     attributes:
       label: deployment Version
@@ -53,7 +53,7 @@ body:
       placeholder: docker/k8s version
     validations:
       required: true
-    - type: dropdown
+  - type: dropdown
     id: running-app-type
     attributes:
       label: App Running type
@@ -65,7 +65,7 @@ body:
         - others
     validations:
       required: true
-   - type: input
+  - type: input
     id: running-app-version
     attributes:
       label: App Running version
