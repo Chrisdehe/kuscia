@@ -19,6 +19,16 @@ body:
         - Others
     validations:
       required: true
+  - type: dropdown
+    id: searched-for-existing-issues
+    attributes:
+      label: Have you searched for existing issues? 
+      description: Existing [documents](https://www.secretflow.org.cn/zh-CN/docs/kuscia/main/) and [issues](https://github.com/secretflow/kuscia/issues)
+      options:
+        - 'Yes'
+        - 'No'
+    validations:
+      required: true
   - type: input
     id: OS
     attributes:
