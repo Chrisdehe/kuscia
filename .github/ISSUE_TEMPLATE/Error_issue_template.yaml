@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please make sure that you report a Install/Deploy Problem, Running Problem,Document Problem on GitHub.
+        Please make sure that you report a code/doc bug, feature request or build/installation bug on GitHub.
         Please post on our [discussions](https://github.com/secretflow/kuscia/discussions) instead if you want to ask questions or share ideas.
   - type: dropdown
     id: issue-type
