@@ -6,7 +6,8 @@ body:
       value: |
         Please make sure that you report a Install/Deploy Problem, Running Problem,Document Problem on GitHub.
         Please post on our [discussions](https://github.com/secretflow/kuscia/discussions) instead if you want to ask questions or share ideas.
-  - id: issue-type
+  - type: dropdown
+    id: issue-type
     attributes:
       label: Issue Type
       description: What type of issue would you like to report?
