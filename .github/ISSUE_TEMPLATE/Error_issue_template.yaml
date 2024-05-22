@@ -27,14 +27,14 @@ body:
       placeholder: e.g., Linux Ubuntu 18.04
     validations:
       required: true
- - type: input
+  - type: input
     id: kuscia-version
     attributes:
       label: Kuscia Version
       description:
       placeholder: e.g., kuscia 0.7.0b0
     validations:
-      required: true 
+      required: true
   - type: dropdown
     id: deployment
     attributes:
@@ -53,7 +53,7 @@ body:
       placeholder: docker/k8s version
     validations:
       required: true
-    - type: dropdown
+  - type: dropdown
     id: running-app-type
     attributes:
       label: App Running type
